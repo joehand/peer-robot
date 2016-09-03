@@ -1,6 +1,6 @@
 {
   "name": "peer-robot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A peer robot that beeps and boops to a peer-status-feed.",
   "main": "index.js",
   "bin": {
