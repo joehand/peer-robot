@@ -1,0 +1,28 @@
+{
+  "name": "peer-robot",
+  "version": "1.0.0",
+  "description": "A peer robot that beeps and boops to a peer-status-feed.",
+  "main": "index.js",
+  "bin": {
+    "peer-robot": "cli.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joehand/peer-robot.git"
+  },
+  "author": "Joe Hand <joe@hand.email> (https://joeahand.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joehand/peer-robot/issues"
+  },
+  "homepage": "https://github.com/joehand/peer-robot#readme",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "memdb": "^1.3.1",
+    "peer-status-feed": "^1.0.0"
+  },
+  "devDependencies": {}
+}
